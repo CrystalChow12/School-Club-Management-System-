@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/inter": "^5.0.20",
 		"@fontsource/cinzel-decorative": "^5.0.19",
 		"@fontsource/inknut-antiqua": "^5.0.13",
 		"@fontsource/kalam": "^5.0.13",

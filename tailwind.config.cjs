@@ -9,7 +9,8 @@ module.exports = {
 				Roboto: ['Roboto'],
 				Kalam: ['Kalam'],
 				inknut: ['Inknut Antiqua'],
-				cinzel: ['Cinzel Decorative']
+				cinzel: ['Cinzel Decorative'], 
+				inter: ['Inter Variable']
 			}
 		}
 	},

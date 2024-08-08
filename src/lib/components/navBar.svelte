@@ -6,7 +6,7 @@
 
 <header class="font-Roboto">
 	<nav class="bg-gradient-to-r from-slate-100 to-blue-100 stick top-0">
-		<div class="flex justify-between items-center ml-3 mr-3">
+		<div class="grid grid-cols-3 gap-4 ml-3 mr-3">
 			<!-- <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2"> -->
 			<div class="flex-none">
 				<a class="font-cinzel font-bold" href="/home"
@@ -16,8 +16,6 @@
 					>
 				</a>
 			</div>
-
-			<div class=""><a href="/advisors">Staff Advisors</a></div>
 
 			<div class="flex">
 				<form class="">

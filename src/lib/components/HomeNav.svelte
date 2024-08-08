@@ -5,7 +5,7 @@
 
 <header class="text-blue-950 w-full">
 	<nav class="bg-gradient-to-r from-slate-100 to-blue-100 stick top-0">
-		<div class="container mx-auto px-2 md:flex items-center gap-9">
+		<div class="container md:flex items-center gap-9">
 			<!---LOGO -->
 			<div class="flex items-center justify-between md:w-auto w-full">
 				<a href="/home" class="py-5 px-2 flex-1 font-cinzel font-semibold"
@@ -20,7 +20,7 @@
 					<button
 						on:click={() => (isHamBurgerOpen = !isHamBurgerOpen)}
 						type="button"
-						class="mobile-menu-button"
+						class="mobile-menu-button pr-3"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,8 @@
 				class="flex md:flex md:flex-row flex-col items-center justify-start md:space-x-1 pb-3 md:pb-0"
 				id="navigation-menu"
 			>
-				<a href="/advisors" class="py-2 px-3 block">Staff Advisors</a>
+
+				<a href="/login" class="py-2 px-3 block">Admin Login</a>
 
 				<!-- flex md:flex-row flex-row z-10 rounded:md border-rounded-md  -->
 				<!---Drop down menu button -->
@@ -91,7 +92,7 @@
 					<!-- </div> -->
 				</form>
 
-				<a href="/login" class="py-2 px-3 block">Admin Login</a>
+				
 			</div>
 		</div>
 	</nav>
